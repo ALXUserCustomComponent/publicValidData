@@ -1,0 +1,44 @@
+{
+  "version": "1.0.15-01",
+  "logo": "https://www.mypublisher.com/somelogo.jpg",
+  "publisher": "Legal Publisher",
+  "publisher_url": "https://www.mypublisher.com",
+  "parameters": [
+    {
+      "parameter_name": "Max deal size",
+      "parameter_description": "Enter an integer or {{merge_field}}",
+      "parameter_type": "integer",
+      "parameter_limit": 5000
+    },
+    {
+      "parameter_name": "Gender",
+      "parameter_description": null,
+      "parameter_type": "string",
+      "parameter_limit": 5000
+    },
+    {
+      "parameter_name": "Height",
+      "parameter_description": "in meters",
+      "parameter_type": "float",
+      "parameter_limit": 260
+    },
+    {
+      "parameter_name": "The black box in a plane is black.",
+      "parameter_description": "True/False",
+      "parameter_type": "boolean"
+    },
+    {
+      "parameter_name": "Time period",
+      "parameter_description": "Enter a number of days as an integer or {{merge_field}}",
+      "parameter_type": "integer",
+      "parameter_limit": 90
+    },
+    {
+      "parameter_name": "Filter by",
+      "parameter_description": "Choose a default filter value",
+      "parameter_type": "enum",
+      "parameter_options": ["one", "awd"],
+      "parameter_limit": 1
+    }
+  ]
+}
